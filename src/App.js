@@ -7,7 +7,7 @@ function App(){
   
   const [countries,setCountries] = useState([]);
   const [singleCountry,setSingleCountry] = useState("");
-  const [cities,setCities] = useState([]);
+  const [cities,setCities] = useState(null);
   const [singleCity, setSingleCity] = useState("");
   const [submit, setSubmit] = useState(false)
 
